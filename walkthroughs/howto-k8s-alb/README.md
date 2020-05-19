@@ -25,7 +25,7 @@ Note: Only [deploy the ALB Ingress Controller](https://kubernetes-sigs.github.io
     export ENVOY_IMAGE=...
     ```
 5. Deploy
-    ```.
+    ```
     ./deploy.sh
     ```
 
