@@ -61,7 +61,7 @@ You should see similar to the following.
       Normal  CREATE  11m    alb-ingress-controller  LoadBalancer 80113f18-howtok8salb-color-0f20 created, ARN: arn:aws:elasticloadbalancing:us-west-2:669977933099:loadbalancer/app/80113f18-howtok8salb-color-0f20/7c45f6fd4eefa871
       Normal  CREATE  11m    alb-ingress-controller  rule 1 created with conditions [{    Field: "path-pattern",    PathPatternConfig: {      Values: ["/"]    }  }]
       Normal  MODIFY  4m12s  alb-ingress-controller  rule 1 modified with conditions [{    Field: "path-pattern",    PathPatternConfig: {      Values: ["/color"]    }  }]
-     ```
+    ```
 
 To check if the application is reachable via ALB Ingress Controller
 
